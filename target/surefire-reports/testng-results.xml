@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="40986" started-at="2023-02-12T14:04:00Z" finished-at="2023-02-12T14:04:41Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="40986" started-at="2023-02-12T14:04:00Z" finished-at="2023-02-12T14:04:41Z">
+      <class name="code4life.tests.TestUserNameLabel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:code4life.tests.TestUserNameLabel@6be46e8f]" name="setup" is-config="true" duration-ms="12490" started-at="2023-02-12T14:04:00Z" finished-at="2023-02-12T14:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserNameLabel()[pri:0, instance:code4life.tests.TestUserNameLabel@6be46e8f]" name="verifyUserNameLabel" duration-ms="139" started-at="2023-02-12T14:04:13Z" finished-at="2023-02-12T14:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNameLabel -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:code4life.tests.TestUserNameLabel@6be46e8f]" name="teardown" is-config="true" duration-ms="75" started-at="2023-02-12T14:04:13Z" finished-at="2023-02-12T14:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- code4life.tests.TestUserNameLabel -->
+      <class name="code4life.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:code4life.tests.LoginTest@3567135c]" name="setup" is-config="true" duration-ms="5605" started-at="2023-02-12T14:04:13Z" finished-at="2023-02-12T14:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginFunc()[pri:0, instance:code4life.tests.LoginTest@3567135c]" name="testLoginFunc" duration-ms="5836" started-at="2023-02-12T14:04:19Z" finished-at="2023-02-12T14:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunc -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:code4life.tests.LoginTest@3567135c]" name="teardown" is-config="true" duration-ms="82" started-at="2023-02-12T14:04:25Z" finished-at="2023-02-12T14:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- code4life.tests.LoginTest -->
+      <class name="code4life.tests.TestCartFunc">
+        <test-method status="PASS" signature="setup()[pri:0, instance:code4life.tests.TestCartFunc@4157f54e]" name="setup" is-config="true" duration-ms="5771" started-at="2023-02-12T14:04:30Z" finished-at="2023-02-12T14:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCartFunctionality()[pri:0, instance:code4life.tests.TestCartFunc@4157f54e]" name="verifyCartFunctionality" duration-ms="5131" started-at="2023-02-12T14:04:36Z" finished-at="2023-02-12T14:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartFunctionality -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:code4life.tests.TestCartFunc@4157f54e]" name="teardown" is-config="true" duration-ms="81" started-at="2023-02-12T14:04:41Z" finished-at="2023-02-12T14:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- code4life.tests.TestCartFunc -->
+      <class name="code4life.tests.TestTitle">
+        <test-method status="PASS" signature="setup()[pri:0, instance:code4life.tests.TestTitle@327471b5]" name="setup" is-config="true" duration-ms="5597" started-at="2023-02-12T14:04:25Z" finished-at="2023-02-12T14:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:code4life.tests.TestTitle@327471b5]" name="verifyTitle" duration-ms="52" started-at="2023-02-12T14:04:30Z" finished-at="2023-02-12T14:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:code4life.tests.TestTitle@327471b5]" name="teardown" is-config="true" duration-ms="76" started-at="2023-02-12T14:04:30Z" finished-at="2023-02-12T14:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- code4life.tests.TestTitle -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

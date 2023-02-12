@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/code4life/IdeaProjects/POM/src/test/java/code4life/tests">
+        <classes>
+            <class name="code4life.tests.LoginTest">
+                <methods>
+                    <include name="testLoginFunc"/>
+                </methods>
+            </class>
+            <class name="code4life.tests.TesCredentialError">
+                <methods>
+                    <include name="verifyLoginErrorText"/>
+                </methods>
+            </class>
+            <class name="code4life.tests.TestCartFunc">
+                <methods>
+                    <include name="verifyCartFunctionality"/>
+                </methods>
+            </class>
+            <class name="code4life.tests.TestTitle">
+                <methods>
+                    <include name="verifyTitle"/>
+                </methods>
+            </class>
+            <class name="code4life.tests.TestUserNameLabel">
+                <methods>
+                    <include name="verifyUserNameLabel"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
