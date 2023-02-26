@@ -2,15 +2,16 @@ package code4life.pages;
 
 import code4life.utilities.Driver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 
 import java.io.IOException;
-import java.util.Date;
 
 public class LoginPage {
 
 
     By userName = By.id("user-name");
+    By pass = By.id("user-name");
+    By pass2 = By.id("user-name");
     By password = By.id("password");
     By loginBtn = By.id("login-button");
     By productLabel = By.xpath("//span[text()='Products']");
